@@ -1,0 +1,30 @@
+# Setup
+title:               sti09181의 블로그
+tagline:             ''
+description:         '유레카프로젝트 과제 제출을 위한 블로그입니다. 오픈 소스 프로젝트이며, GPLv3의 의해 보호되고 있습니다.'
+url:                 https://sti09181.github.io
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              sti09181
+  url:               https://github.com/sti09181
+  email:             sti09181@gmail.com
+
+github:
+  repo: https://github.com/sti09181/sti09181.github.io
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+google_analytics_id: #UA-XXXX-Y
+
+# Disqus settings
+comment:
+  provider: "disqus"
+  disqus:
+    shortname: "sti09181"
